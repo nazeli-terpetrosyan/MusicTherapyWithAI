@@ -1,0 +1,154 @@
+*{
+zoom: 97%;
+}
+
+body {
+  margin: 25px;
+  background-image: url("http://techacks.us.com/images/bg5.gif");
+  background-color: #061840;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+  h1{
+  	font-family: "Vibur", sans-serif;
+   	text-align: center;
+  	font-weight: 400;
+  	line-height: 1;
+    font-size: 60px;
+    margin-top: 40px;
+    animation: pulsate 0.5s ease-in-out infinite alternate;
+ 
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+  }
+  
+  @keyframes pulsate {
+    
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 14px #fff,
+      0 0 22px #fff,
+      0 0 43px #f09,
+      0 0 83px #f09,
+      0 0 93px #f09,
+      0 0 103px #f09,
+      0 0 153px #f09;
+  
+  }
+  
+  0% {
+
+    text-shadow:
+    0 0 4px #fff,
+    0 0 10px #fff,
+    0 0 18px #fff,
+    0 0 38px #f09,
+    0 0 73px #f09,
+    0 0 80px #f09,
+    0 0 94px #f09,
+    0 0 140px #f09;
+
+}
+
+  }
+  
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgba(230, 230, 230, 0.4);
+  padding: 0px;
+  width: 90%;
+  height: 87%;
+  margin: auto;
+  border-radius: 15px;
+}
+.grid-item {
+  border: none;
+  padding: 10px;
+  padding-top: 20px;
+  text-align: center;
+}
+  
+  .predict p{
+    color: white;
+  }
+  
+  #file1, #file2, #file3{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .class{
+    border-radius: 17px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 45px;
+    padding: 10px;
+    border: 2px solid #66ccff;
+    box-shadow: 0px 0px 10px 1px #66ccff;
+  }
+  
+ .class .input-label{
+   font-family: "Vibur", sans-serif;
+   	text-align: center;
+  	font-weight: 400;
+  	line-height: 1;
+    font-size: 30px;
+   margin-bottom: 20px;
+    animation: pulsate 0.5s ease-in-out infinite alternate;
+ 
+    color: #fff;
+    text-shadow:
+      0 0 4px #fff,
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 21px #f09,
+      0 0 41px #f09,
+      0 0 46px #f09,
+      0 0 51px #f09,
+      0 0 75px #f09;
+}
+  
+   .class p{
+ color: white;
+}
+  
+
+span {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #BA55D3	;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+} 
+  
+  input {
+    margin:10px;
+  }
+
+  .input-label {
+    margin:5px;
+  }
+  
